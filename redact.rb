@@ -7,5 +7,11 @@ redact = gets.chomp
 words = text.split(" ")
 
 words.each do |word|
-	print word
+	if words == redact
+		print "REDACTED"
+	else
+		print word + " "
+
+
+	end
 end
