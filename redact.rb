@@ -1,7 +1,7 @@
 puts "Enter some text: "
 text = gets.chomp
 
-puts "Enter words to redact: "
+puts "Enter a word to redact: "
 redact = gets.chomp
 
 words = text.split(" ")
